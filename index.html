@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pc.css">
+    <link rel="stylesheet" href="./pc2.css">
+    <link rel="stylesheet" href="./ipad.css">
+    <link rel="stylesheet" href="./phone.css">
+    <link rel="stylesheet" href="./fonts1/iconfont.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        li {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav">
+            <a href="" class="name">Mailblast</a>
+            <ul class="nav_tit">
+
+                <li><a href="">Demo</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Docs</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Signup</a></li>
+            </ul>
+            <div class="btn">
+                ☰
+            </div>
+        </div>
+        <div class="nav_m">
+            <h1>Mailblast</h1>
+            <p>Email Marketing on a budget using Amazon SES</p>
+            <button>Start for Free</button>
+        </div>
+        <div class="nav_bg">
+            <img src="./imgs/bg.png" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="box_con">
+            <h1>Simple Email Marketing</h1>
+            <p>Mailblast makes sending emails simple and cheap using Amazon's <a href="">Simple Email Service</a></p>
+            <p>Save money and time without sacrificing deliverability.</p>
+            <div class="line"></div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="title">Features</div>
+        <div class="fea_content">
+            <div class="fea_con">
+                <div class="l">
+                    <h4>List Management</h4>
+                    <h5>Upload and manage your subscriber lists online. Easy to use filters and import functionality
+                        make management a breeze.</h5>
+                </div>
+                <div class="r">
+                    <img src="./imgs/img1.png" alt="">
+                </div>
+            </div>
+            <div class="line"></div>
+        </div>
+
+        <div class="fea_content">
+            <div class="fea_con">
+                <div class="l">
+                    <h4>Send Campaigns</h4>
+                    <h5>Create, test and schedule campaigns using an easy to use wizard.</h5>
+                </div>
+                <div class="r">
+                    <img src="./imgs/img2.png" alt="">
+                </div>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="fea_content">
+            <div class="fea_con">
+                <div class="l">
+                    <h4>Detailed Reports</h4>
+                    <h5>See detailed reports on every campaign. Bounces and complaints are automatically filtered for
+                        future campaigns.</h5>
+                </div>
+                <div class="r">
+                    <img src="./imgs/img3.png" alt="">
+                </div>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="fea_content">
+            <div class="fea_con">
+                <div class="l">
+                    <h4>Marketing Automation</h4>
+                    <h5>Send scheduled automated emails to users who sign up to your list.</h5>
+                </div>
+                <div class="r">
+                    <img src="./imgs/img4.png" alt="">
+                </div>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="fea_content">
+            <div class="fea_con">
+                <div class="l">
+                    <h4>Signup Forms</h4>
+                    <h5>Embed Signup forms on your website to drive subscribers to your list.</h5>
+                </div>
+                <div class="r">
+                    <img src="./imgs/img5.png" alt="">
+                </div>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="logo">
+            <div class="logo1_con">
+                <button>Start with Free Plan</button>
+                <p>1,000 Subscribers. Unlimited Emails.</p>
+                <p>Does not include Amazon SES fees, (2,000 free emails/day) 0.10$/1000 emails after.</p>
+            </div>
+
+            <div class="line"></div>
+        </div>
+        <div class="logo1">
+            <div class="logo1_con">
+                <img src="./imgs/logo.png" alt="">
+            </div>
+
+            <div class="line"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li>
+                <h5>Quick Links</h5>
+                <a href="">
+                    <p>Api Docs</p>
+                </a>
+                <a href="">
+                    <p>Pricing</p>
+                </a>
+            </li>
+            <li>
+                <h5>Help</h5>
+                <a href="">
+                    <p>contact@mailblast.io</p>
+                </a>
+                <a href="">
+                    <p>Documentation</p>
+                </a>
+            </li>
+            <li>
+                <h5>Legal</h5>
+                <a href="">
+                    <p>Terms of Service</p>
+                </a>
+                <a href="">
+                    <p>Privacy Policy</p>
+                </a>
+            </li>
+            <li>
+                <h5>Social</h5>
+                <a href="">
+                    <div class="back1"><i class="iconfont icon-facebook1"></i></div>
+                </a>
+                <a href="">
+                    <div class="back2"><i class="iconfont icon-twitter2"></i></div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="message">
+        <i class="iconfont icon-xiaoxi1"></i>
+    </div>
+</body>
+<script>
+    let btn = document.querySelector('.btn')
+    let ul = document.querySelector('.nav_tit')
+    let li = document.querySelector('.nav_tit>li>a')
+    let nav = document.querySelector('.nav')
+    let name = document.querySelector('.name')
+    let nav_bg = document.querySelector('.nav_bg')
+    let bl = false
+
+btn.onclick = function () {
+    bl = !bl
+    if (bl) {
+        ul.style = 'display:block;'
+    } else {
+        ul.style = 'display:none'
+    }
+   
+}
+    window.onscroll = function () {
+                if (document.documentElement.scrollTop > 5) {
+                    nav.style = 'background-color:#333;height:75px;line-height:75px'
+                    li.style = 'background-color:#6f42c1'
+                    name.style = 'line-height:75px;padding:0;'
+                    ul.style = 'background:#333;'
+                    btn.style = 'color:#fff'
+                }
+                else {
+                    nav.style = ''
+                    li.style = ''
+                    name.style = '' 
+                    btn.style = ''
+                    ul.style = ''
+                }
+                let bl = false
+
+                        btn.onclick = function () {
+                    bl = !bl
+                    if (bl) {
+                        ul.style = 'display:block;background:#333;'
+                    } else {
+                        ul.style = 'display:none'
+                    }
+                
+                }
+                if(document.documentElement.scrollTop <= 5){
+                    btn.onclick = function () {
+                        bl = !bl
+                        if (bl) {
+                            ul.style = 'display:block;'
+                        } else {
+                            ul.style = 'display:none'
+                        }
+                    
+                    }
+                }
+                
+            }
+            
+            
+            window.onresize = function(){
+                if(nav_bg.offsetWidth > 690){
+                ul.style = 'display:block;'
+                bl = true
+            }else{
+                ul.style = 'display:none;'
+                bl = false
+            }
+            }
+   
+</script>
+
+</html>
